@@ -1,0 +1,502 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+ul{
+    list-style: none;
+}
+.bg{
+    background-image: url(../images/bg.png);
+    background-position: center center;
+}
+.flag{
+    background-image: url(../images/flag.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 600px;
+    height: 450px;
+    text-align: center;
+    margin: 0 auto;
+}
+.flag img{
+    padding-top: 70px;
+    width: 230px;
+    height: 151px;
+}
+.flag h1{
+    font: normal normal 700 44px/60px Noto Serif JP;
+    color:#DCB200;
+}
+.flag p{
+    font: normal normal 500 14px/25px Noto Serif JP;
+    color:#DCB200;
+}
+.logo{
+    display: flex;
+}
+.logo img{
+    width: 70px;
+    padding: 10px;
+}
+.logo p{
+    text-align: left;
+    font: normal normal 700 21px/4px Noto Serif JP;
+    color: #F0C200;
+    padding-top: 32px;
+}
+.navlist ul{
+    display: flex;
+}
+.navlist li{
+    padding-top: 20px;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    width: 94%;
+    margin: 0 auto;
+}
+.bar{
+    height:70px;
+    background: #FAFAFA 0% 0% no-repeat padding-box;
+}
+.hr a{
+    text-align: left;
+    font: normal normal 900 20px/29px Noto Serif JP;
+    letter-spacing: 0px;
+    color: #0A2750;
+    text-decoration: underline;
+    width: 100px;
+    height: 40px;
+    border-right: 2.4px solid #F0C200;
+    padding: 0 40px;
+}
+.stu a{
+    text-align: left;
+    font: normal normal 600 20px/29px Noto Serif JP;
+    letter-spacing: 0px;
+    color: #2F6922;
+    height: 40px;
+    border-right: 2.4px solid #F0C200;
+    padding: 0 40px;
+}
+.oth a{
+    text-align: left;
+    font: normal normal 600 20px/29px Noto Serif JP;
+    letter-spacing: 0px;
+    color: #90110F;
+    padding: 0 40px;
+}
+.hr a:hover{
+    font: normal normal 900 20px/29px Noto Serif JP;
+}
+.stu a:hover{
+    font: normal normal 900 20px/29px Noto Serif JP;
+}
+.oth a:hover{
+    font: normal normal 900 20px/29px Noto Serif JP;
+}
+.hr a:active{
+    text-decoration: underline;
+}
+.stu a:active{
+    text-decoration: underline;
+}
+.oth a:active{
+    text-decoration: underline;
+}
+.crown{
+    text-align: center;
+    padding-top: 95px;
+}
+.airy{
+    background-image: url(../images/AIRYAWARD.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+.airybg{
+    height: 60px;
+    padding: 80px;
+}
+.airy h2{
+    font: normal normal bold 26px/37px Noto Serif JP;
+    color: #696969;
+    text-align: center;
+    margin-top: 10px;
+}
+.intro p{
+    text-align: center;
+    font: normal normal 500 15px/35px Noto Serif JP;
+    letter-spacing: 0px;
+    color: #696969;
+}
+.award{
+    background-image: url(../images/AWARDCATEGORY.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    text-align: center;
+    background-size: 50%;
+}
+.awardcategory{
+    height: 60px;
+    padding: 110px;
+}
+.awardcategory h2{
+    font: normal normal bold 26px/37px Noto Serif JP;
+    color: #696969;
+    text-align: center;
+    margin-top: 10px;
+}
+.cate {
+    text-align: center;
+}
+.cateul{
+    display: flex;
+    margin: 0 auto;
+    text-align: center;
+    width: 80%;
+    padding-bottom: 140px;
+}
+.cateul li{
+    width: 300px;
+    height: 55px;
+    margin: 0 auto;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-image: url(../images/cate.svg);
+    background-position: center center;
+}
+.cateul a:active{
+    text-align: left;
+    font: normal normal 900 26px/55px Noto Serif JP;
+    letter-spacing: 0px;
+    color: #C3A813;
+    text-decoration: underline;
+}
+.cateul a:hover{
+    text-align: left;
+    font: normal normal 900 26px/55px Noto Serif JP;
+    letter-spacing: 0px;
+    color: #C3A813;
+}
+.catehr a{
+    text-align: left;
+    font: normal normal 900 26px/55px Noto Serif JP;
+    letter-spacing: 0px;
+    color: #C3A813;
+    text-decoration: underline;
+}
+.catestu{
+    text-align: left;
+    font: normal normal 600 26px/55px Noto Serif JP;
+    letter-spacing: 0px;
+    color: #4B4B4D;
+}
+.cateoth{
+    text-align: left;
+    font: normal normal 600 26px/55px Noto Serif JP;
+    letter-spacing: 0px;
+    color: #4B4B4D;
+}
+.certificate{
+    background-image: url(../images/certificate.svg);
+    background-size: 100%;
+    margin: 0 60px;
+    height:fit-content;
+    background-repeat: no-repeat;
+}
+.categorybg{
+    background-image: url(../images/HRCATEGORY.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    text-align: center;
+    height: 60px;
+    padding: 110px;
+    background-size: 40%;
+}
+.categorybg h2{
+    font: normal normal bold 26px/37px Noto Serif JP;
+    color: #696969;
+    text-align: center;
+    margin-top: 20px;
+}
+.left{
+    transform: rotateY(180deg);
+    text-align: center;
+}
+.flex{
+    display: flex;
+    text-align: center;
+    margin: 100px 0px auto;
+}
+.flex img{
+    text-align: center;
+    margin: 0 auto;
+}
+.flex p{
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
+
+
+
+
+
+@media screen and (min-width:320px) and (max-width: 660px){
+    .bg{
+        background-size: cover;
+    }
+    .flag{
+        width: 370px;
+        height: 270px;
+    }
+    .flag img{
+        padding-top: 38px;
+        width: 180px;
+        height: 90px;
+    }
+    .flag h1{
+        font: normal normal 700 28px/35px Noto Serif JP;
+    }
+    .flag p{
+        font: normal normal 500 10px/17px Noto Serif JP;
+        color:#DCB200;
+        letter-spacing: -0.5px;
+    }
+    .bar{
+        height:50px;
+        background: #FAFAFA 0% 0% no-repeat padding-box;
+    }
+    .logo p{
+        text-align: left;
+        font: normal normal 700 13px/13px Noto Serif JP;
+        color: #F0C200;
+        padding-top: 17px;
+    }
+    .navlist li{
+        padding-top: 10px;
+    }
+    .logo img{
+        width: 40px;
+        padding: 10px 2px;
+        margin: 0;
+    }
+    .hr a{
+        text-align: left;
+        font: normal normal 900 11px/11px Noto Serif JP;
+        letter-spacing: 0px;
+        color: #0A2750;
+        text-decoration: underline;
+        border-right: 2.4px solid #F0C200;
+        padding: 0 7px;
+    }
+    .stu a{
+        text-align: left;
+        font: normal normal 600 11px/11px Noto Serif JP;
+        letter-spacing: 0px;
+        color: #2F6922;
+        border-right: 2.4px solid #F0C200;
+        padding: 0 7px;
+    }
+    .oth a{
+        text-align: left;
+        font: normal normal 600 11px/11px Noto Serif JP;
+        letter-spacing: 0px;
+        color: #90110F;
+        padding: 0 7px;
+    }
+    .nav{
+        width: 100%;
+    }
+    .crown{
+        padding-top:40px;
+    }
+    .crown img{
+        width: 300px;
+        height: 30px
+    }
+    .airy{
+        background-image: url(../images/AIRYAWARD.png);
+        background-position: center center;
+        background-repeat: no-repeat;
+        text-align: center;
+        background-size: 60%;
+    }
+    .airybg{
+        height: 30px;
+        padding: 40px;
+    }
+    .airy h2{
+        font: normal normal bold 18px/22px Noto Serif JP;
+        color: #696969;
+        text-align: center;
+        margin-top: 5px;
+    }
+    .intro{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .intro p{
+        text-align: center;
+        font: normal normal 500 10px/25px Noto Serif JP;
+        letter-spacing: -0.9px;
+        color: #696969;
+    }
+    .award{
+        background-image: url(../images/AWARDCATEGORY.png);
+        background-position: center center;
+        background-repeat: no-repeat;
+        text-align: center;
+        background-size: 90%;
+    }
+    .awardcategory{
+        height: 30px;
+        padding: 40px;
+    }
+    .awardcategory h2{
+        font: normal normal bold 18px/22px Noto Serif JP;
+        color: #696969;
+        text-align: center;
+        margin-top: 5px;
+    }
+}
+
+@media screen and (min-width:661px) and (max-width: 960px){
+    .bg{
+        background-size: cover;
+    }
+    .flag{
+        width: 420px;
+        height: 310px;
+    }
+    .flag img{
+        padding-top: 45px;
+        width: 200px;
+        height: 100px;
+    }
+    .flag h1{
+        font: normal normal 700 35px/45px Noto Serif JP;
+    }
+    .flag p{
+        font: normal normal 500 12px/18px Noto Serif JP;
+        color:#DCB200;
+        letter-spacing: -0.7px;
+    }
+    .logo p{
+        text-align: left;
+        font: normal normal 700 19px/4px Noto Serif JP;
+        color: #F0C200;
+        padding-top: 32px;
+    }
+    .hr a{
+        text-align: left;
+        font: normal normal 900 16px/29px Noto Serif JP;
+        letter-spacing: 0px;
+        color: #0A2750;
+        text-decoration: underline;
+        height: 40px;
+        border-right: 2.4px solid #F0C200;
+        padding: 0 20px;
+    }
+    .stu a{
+        text-align: left;
+        font: normal normal 600 16px/29px Noto Serif JP;
+        letter-spacing: 0px;
+        color: #2F6922;
+        height: 40px;
+        border-right: 2.4px solid #F0C200;
+        padding: 0 20px;
+    }
+    .oth a{
+        text-align: left;
+        font: normal normal 600 16px/29px Noto Serif JP;
+        letter-spacing: 0px;
+        color: #90110F;
+        padding: 0 20px;
+    }
+    .nav{
+        width: 96%;
+    }
+    .crown{
+        padding-top:60px;
+    }
+    .crown img{
+        width: 300px;
+        height: 50px
+    }
+    .airybg{
+        height: 30px;
+        padding: 60px;
+    }
+    .airy h2{
+        font: normal normal bold 22px/22px Noto Serif JP;
+        color: #696969;
+        text-align: center;
+        margin-top: 5px;
+    }
+    .awardcategory{
+        height: 30px;
+        padding: 90px;
+    }
+    .awardcategory h2{
+        font: normal normal bold 26px/30px Noto Serif JP;
+        color: #696969;
+        text-align: center;
+        margin-top: 0px;
+    }
+}
+@media screen and (min-width:961px) and (max-width: 1440px){
+    .bg{
+        background-size: cover;
+    }
+    .flag{
+        width: 520px;
+        height: 390px;
+    }
+    .flag img{
+        padding-top: 57px;
+        width: 210px;
+        height: 140px;
+    }
+    .flag h1{
+        font: normal normal 700 41px/52px Noto Serif JP;
+    }
+    .flag p{
+        font: normal normal 500 13px/20px Noto Serif JP;
+        color:#DCB200;
+    }
+    .hr a{
+        text-align: left;
+        font: normal normal 900 18px/29px Noto Serif JP;
+        letter-spacing: 0px;
+        color: #0A2750;
+        text-decoration: underline;
+        height: 40px;
+        border-right: 2.4px solid #F0C200;
+        padding: 0 20px;
+    }
+    .stu a{
+        text-align: left;
+        font: normal normal 600 18px/29px Noto Serif JP;
+        letter-spacing: 0px;
+        color: #2F6922;
+        height: 40px;
+        border-right: 2.4px solid #F0C200;
+        padding: 0 20px;
+    }
+    .oth a{
+        text-align: left;
+        font: normal normal 600 18px/29px Noto Serif JP;
+        letter-spacing: 0px;
+        color: #90110F;
+        padding: 0 20px;
+    }
+}
