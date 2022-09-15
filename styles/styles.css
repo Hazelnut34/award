@@ -9,6 +9,153 @@ a{
 ul{
     list-style: none;
 }
+
+/* repeated apper elements  */
+
+.description{
+    text-align: center;
+    font: normal normal 500 15px/30px Noto Serif JP;
+    letter-spacing: 0px;
+    color: #696969;
+    padding: 70px 0;
+}
+
+/* ranking repeatedly appear */
+
+.company h3{
+    text-align: center;
+    font: normal normal bold 24px/26px Noto Serif JP;
+    color: #696969;
+    height: 40px;
+    width: 155px;
+    margin: 0 auto;
+    border-bottom: 2.4px solid #E6DA95;
+}
+.ranking{
+    margin: 0 auto;
+    padding-top: 50px;
+}
+.middle{
+    align-items: center;
+    margin: 0 auto;
+}
+.ranking div{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 450px;
+    text-align: center;
+}
+.middle p{
+    display: inline-block;
+    text-align: left;
+}
+.text{
+    text-align: left;
+    font: normal normal bold 16px/60px Noto Serif JP;
+    padding-left: 10px;
+    color: #696969;
+}
+.left{
+    transform: rotateY(180deg);
+    text-align: left;
+    margin:0px 0px;
+}
+.title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 140px 0 0 0;
+}
+.title img{
+    text-align: center;
+    margin: 0 5px;
+}
+.title p{
+    text-align: center;
+    font: normal normal bold 24px/26px Noto Serif JP;
+    color: #696969;
+    height: 40px;
+    border-bottom: 2.4px solid #E6DA95;
+    margin-top: 5px;
+}
+
+/* comment repeatedly appear */
+
+.comment h3{
+    text-align: center;
+    font: normal normal bold 24px/26px Noto Serif JP;
+    color: #696969;
+    height: 40px;
+    width: 300px;
+    margin: 0 auto;
+    border-bottom: 2.4px solid #E6DA95;
+    padding-top: 70px;
+}
+.commentborder{
+    padding-top: 70px;
+}
+.up{
+    background-image: url(../images/up.svg),url(../images/down.svg),url(../images/center.svg);
+    background-position: center top,center bottom,center bottom;
+    background-repeat: no-repeat,no-repeat,repeat-y;
+    height: fit-content;
+    background-size: 90%,90%,88.48%;
+}
+/* UNSOLVED why the border is always the 70% of the screen size while I did not set the value */
+.commentone{
+    display: flex;
+    text-align: center;
+    margin: 0 auto;
+    justify-content: center;
+    padding: 30px 15px 0;
+}
+.commentone p{
+    text-align: left;
+    font: normal normal bold 18px/50px Noto Serif JP;
+    padding-left: 10px;
+    color: #696969;
+}
+.icon{
+    text-align: left;
+    margin-left: 3%;
+    width:70px;
+    height: 70px;
+    padding-left: 100px;
+    padding-right: 30px;
+}
+.icon .brand{
+    width:120px;
+    margin-left: -30px;
+    text-align: left;
+    margin-top: 10px;
+}
+/* .icon p{
+    padding: 0 45px;
+    font: normal normal bold 17px/25px Noto Serif JP;
+    color: #696969;
+} */
+.content{
+    text-align: left;
+
+}
+.inner{
+    display: flex;
+    width: 90%;
+    padding-top: 20px;
+}
+.content h4{
+    font: normal normal bold 17px/25px Noto Serif JP;
+    color: #696969;
+    padding-bottom: 15px;
+}
+.content p{
+    font: normal normal 400 15px/30px Noto Serif JP;
+    color: #696969;
+}
+.content p:last-child{
+    padding-bottom: 40px;
+}
 .bg{
     background-image: url(../images/bg.png);
     background-position: center center;
@@ -226,25 +373,6 @@ ul{
     text-align: center;
     margin-top: 20px;
 }
-.left{
-    transform: rotateY(180deg);
-    text-align: center;
-}
-.flex{
-    display: flex;
-    text-align: center;
-    margin: 100px 0px auto;
-}
-.flex img{
-    text-align: center;
-    margin: 0 auto;
-}
-.flex p{
-    text-align: center;
-    margin: 0 auto;
-    padding-top: 50px;
-}
-
 
 
 
