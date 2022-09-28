@@ -96,13 +96,21 @@ ul{
     padding-top: 70px;
 }
 .up{
-    background-image: url(../images/up.svg),url(../images/down.svg),url(../images/center.svg);
-    background-position: center top,center bottom,center bottom;
-    background-repeat: no-repeat,no-repeat,repeat-y;
+    background-image: url(../images/up.svg),url(../images/down.svg);
+    background-position: center top,center bottom;
+    background-repeat: no-repeat,no-repeat;
     height: fit-content;
-    background-size: 90%,90%,88.48%;
+    background-size: contain;
+    padding: 0.1px;
 }
 /* UNSOLVED why the border is always the 70% of the screen size while I did not set the value */
+.cenbor{
+    background-image: url(../images/center.svg);
+    background-repeat: repeat-y;
+    margin: 40px auto;
+    background-position: center;
+    width:98.31%;
+}
 .commentone{
     display: flex;
     text-align: center;
@@ -121,8 +129,8 @@ ul{
     margin-left: 3%;
     width:70px;
     height: 70px;
-    padding-left: 100px;
-    padding-right: 30px;
+    padding-left: 80px;
+    padding-right: 50px;
 }
 .icon .brand{
     width:120px;
@@ -373,7 +381,11 @@ ul{
     text-align: center;
     margin-top: 20px;
 }
-
+.backtotop{
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+}
 
 
 
@@ -627,4 +639,41 @@ ul{
         color: #90110F;
         padding: 0 20px;
     }
+}
+
+main{
+    display: block;
+    height: 6500px;
+}
+
+footer {
+    text-align: center;
+    color: #fff;
+    background: #554e39;
+    padding: 70px 0 50px;
+    display: block;
+}
+footer p{
+    font: normal normal 600 24px/70px Noto Serif JP;
+    color: #fff;
+    margin: 0 auto;
+}
+footer img{
+    padding-top: 40px;
+}
+.ftlink a{
+    display: block;
+    font: normal normal 500 16px/30px Noto Serif JP;
+    color: #fff;
+    height: 40px;
+    width: 200px;
+    margin: 40px auto;
+    border: 1.5px solid #fff;
+    text-align: center;
+    line-height: 40px;
+}
+.ftlink{
+    text-align: center;
+    width: 100%;
+    padding: 30px 0;
 }
