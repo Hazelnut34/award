@@ -32,9 +32,9 @@ ul{
     border-bottom: 2.4px solid #E6DA95;
 }
 .ranking{
-    margin: 0 auto;
     padding-top: 50px;
-}
+    margin: 0 auto;
+    }
 .middle{
     align-items: center;
     margin: 0 auto;
@@ -43,7 +43,7 @@ ul{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    width: 450px;
+    width:450px;
     text-align: center;
 }
 .middle p{
@@ -55,11 +55,16 @@ ul{
     font: normal normal bold 16px/60px Noto Serif JP;
     padding-left: 10px;
     color: #696969;
+    white-space: normal;
 }
-.left{
-    transform: rotateY(180deg);
-    text-align: left;
-    margin:0px 0px;
+
+.title::before{
+    content: "";
+    width: 70px;
+    height: 70px;
+    background: url(../images/awarddec.svg) 0 no-repeat;
+    display: block;
+    transform: scaleX(-1);
 }
 .title{
     display: flex;
@@ -67,10 +72,22 @@ ul{
     justify-content: center;
     margin: 140px 0 0 0;
 }
-.title img{
-    text-align: center;
-    margin: 0 5px;
+.titleline{
+    height: 2px;
+    width: 62%;
+    background: #e6da95;
+    border: none;
+    margin: 10px auto;
+    display: block;
 }
+.title::after{
+    content: "";
+    width: 70px;
+    height: 70px;
+    background: url(../images/awarddec.svg) 0 no-repeat;
+    display: block;
+}
+
 .title p{
     text-align: center;
     font: normal normal bold 24px/26px Noto Serif JP;
@@ -219,6 +236,8 @@ ul{
 .bar{
     height:70px;
     background: #FAFAFA 0% 0% no-repeat padding-box;
+    position: sticky;
+    top: 0px;
 }
 .hr a{
     text-align: left;
@@ -362,7 +381,7 @@ ul{
 .certificate{
     background-image: url(../images/certificate.svg);
     background-size: 100%;
-    margin: 0 60px;
+    margin: 0 200px;
     height:fit-content;
     background-repeat: no-repeat;
 }
@@ -507,6 +526,62 @@ ul{
         text-align: center;
         margin-top: 5px;
     }
+    .certificate{
+        margin: 0 10px;
+    }
+    .ranking div{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        width: 370px;
+        text-align: center;
+    }
+    .title{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 60px 0 0 0;
+    }
+    .categorybg{
+        padding: 30px;
+        background-size: 40%;
+    }
+    .cateul{
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+        width: 80%;
+        padding-bottom: 80px;
+    }
+    .cateul li{
+        width: 300px;
+        height: 50px;
+        margin: 10px auto;
+        text-align: center;
+        background-repeat: no-repeat;
+        background-image: url(../images/cate.svg);
+        background-position: center center;
+    }
+    .cateul a:active{
+        text-align: left;
+        font: normal normal 900 18px/50px Noto Serif JP;
+    }
+    .cateul a:hover{
+        text-align: left;
+        font: normal normal 900 18px/50px Noto Serif JP;
+    }
+    .catehr a{
+        text-align: left;
+        font: normal normal 900 18px/50px Noto Serif JP;
+    }
+    .catestu{
+        text-align: left;
+        font: normal normal 600 18px/50px Noto Serif JP;
+    }
+    .cateoth{
+        text-align: left;
+        font: normal normal 600 18px/50px Noto Serif JP;
+    }
 }
 
 @media screen and (min-width:661px) and (max-width: 960px){
@@ -592,6 +667,72 @@ ul{
         text-align: center;
         margin-top: 0px;
     }
+    .title{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 100px 0 0 0;
+    }
+    .categorybg{
+        padding: 60px;
+        background-size: 40%;
+    }
+    .certificate{
+        margin: 0 20px;
+}
+
+.ranking div{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 370px;
+    text-align: center;
+}
+.title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 60px 0 0 0;
+}
+.categorybg{
+    padding: 30px;
+    background-size: 40%;
+}
+.cateul{
+    display:flex;
+    margin: 0 auto;
+    text-align: center;
+    width: 90%;
+    padding-bottom: 80px;
+}
+.cateul li{
+    width: 250px;
+    height: 40px;
+    margin: 10px auto;
+    text-align: center;
+    background: url(../images/cate.svg) 50%/contain no-repeat;
+    background-position: center center;
+}
+.cateul a:active{
+    text-align: left;
+    font: normal normal 900 18px/40px Noto Serif JP;
+}
+.cateul a:hover{
+    text-align: left;
+    font: normal normal 900 18px/40px Noto Serif JP;
+}
+.catehr a{
+    text-align: left;
+    font: normal normal 900 18px/40px Noto Serif JP;
+}
+.catestu{
+    text-align: left;
+    font: normal normal 600 18px/40px Noto Serif JP;
+}
+.cateoth{
+    text-align: left;
+    font: normal normal 600 18px/40px Noto Serif JP;
+}
 }
 @media screen and (min-width:961px) and (max-width: 1440px){
     .bg{
@@ -643,9 +784,63 @@ ul{
 
 main{
     display: block;
-    height: 6500px;
+    height: fit-content;
 }
 
+.detail h3:before{
+    left: 0;
+}
+.detail h3:after {
+    right: 0;
+}
+.detail{
+    width: 100%;
+    background-color: #f6f5ef;
+    padding-top: 60px;
+    margin-top: 100px;
+}
+.detail h3 {
+    color: #4b4b4d;
+    font: normal normal 600 24px/70px Noto Serif JP;
+    text-align: center;
+    margin: 0 auto;
+    position: relative;
+    width: 450px;
+}
+.detail .lines {
+    width: min(90%,860px);
+    margin: 0 auto;
+    padding: 50px 0 70px;
+}
+.detail h3:before{
+    content: "";
+    width: 130px;
+    border: 1px solid #e6da95;
+    display: block;
+    position: absolute;
+    top: 50%;
+}
+.detail h3:after{
+    content: "";
+    width: 130px;
+    border: 1px solid #e6da95;
+    display: block;
+    position: absolute;
+    top: 50%;
+    
+}
+.lines div{
+    text-align: left;
+    border-bottom: 2px solid #e6da95;
+    display: flex;
+    color: #707070;
+    font: normal normal 500 15px/30px Noto Serif JP;
+    padding: min(3vw, 30px) min(3vw, 120px);
+}
+.lines div p:first-child{
+    font: normal normal 700 15px/30px Noto Serif JP;
+    width: 200px;
+}
 footer {
     text-align: center;
     color: #fff;
