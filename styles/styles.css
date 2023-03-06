@@ -70,7 +70,7 @@ ul{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 140px 0 0 0;
+    margin: 70px 0 0 0;
 }
 .titleline{
     height: 2px;
@@ -124,9 +124,9 @@ ul{
 .cenbor{
     background-image: url(../images/center.svg);
     background-repeat: repeat-y;
-    margin: 40px auto;
+    margin: 34px auto;
     background-position: center;
-    width:98.31%;
+    width:98.11%;
 }
 .commentone{
     display: flex;
@@ -146,7 +146,7 @@ ul{
     margin-left: 3%;
     width:70px;
     height: 70px;
-    padding-left: 80px;
+    padding-left: 70px;
     padding-right: 50px;
 }
 .icon .brand{
@@ -391,7 +391,7 @@ ul{
     background-repeat: no-repeat;
     text-align: center;
     height: 60px;
-    padding: 110px;
+    padding: 90px 90px 20px;
     background-size: 40%;
 }
 .categorybg h2{
@@ -540,11 +540,27 @@ ul{
         display: flex;
         align-items: center;
         justify-content: center;
-        margin: 60px 0 0 0;
+        margin: 50px 0 0 0;
     }
+
+    .title p{
+        text-align: center;
+        font: normal normal bold 18px/20px Noto Serif JP;
+        color: #696969;
+        height: 30px;
+        border-bottom: 2.4px solid #E6DA95;
+        margin-top: 0px;
+    }
+    
     .categorybg{
-        padding: 30px;
+        padding: 30px 30px 0px;
         background-size: 40%;
+    }
+    .categorybg h2{
+        font: normal normal bold 22px/26px Noto Serif JP;
+        color: #696969;
+        text-align: center;
+        margin-top: 20px;
     }
     .cateul{
         display: block;
@@ -582,6 +598,150 @@ ul{
         text-align: left;
         font: normal normal 600 18px/50px Noto Serif JP;
     }
+    .description{
+        font: normal normal 500 10px/25px Noto Serif JP;
+        padding: 40px 0;
+    }
+    .company h3{
+        font: normal normal bold 18px/20px Noto Serif JP;
+        height: 30px;
+        width: 100px;
+        margin: 0 auto;
+        border-bottom: 2.4px solid #E6DA95;
+    }
+    .text{
+        font: normal normal bold 12px/50px Noto Serif JP;
+    }
+    .comment h3 {
+        font: normal normal bold 18px/20px Noto Serif JP;
+        color: #696969;
+        height: 30px;
+        width: 230px;
+        margin: 0 auto;
+        padding-top: 40px;
+    }
+    
+    .up{
+        background-image: url(../images/up.svg),url(../images/down.svg);
+        background-position: center top,center bottom;
+        background-repeat: no-repeat,no-repeat;
+        height: fit-content;
+        background-size: contain;
+    }
+    .commentone p {
+        font: normal normal bold 14px/40px Noto Serif JP;
+    }
+    .icon {
+        width: 70px;
+        height: 70px;
+        padding-left: 30px;
+        padding-right: 20px;
+    }
+    .content p {
+        font: normal normal 400 10px/20px Noto Serif JP;
+    }
+    .content p:last-child {
+        padding-bottom: 20px;
+}
+.commentone {
+    padding: 0;
+}
+.content h4 {
+    font: normal normal bold 12px/20px Noto Serif JP;
+    color: #696969;
+    padding-bottom:5px;
+}
+.cenbor{
+    background-image: url(../images/center.svg);
+    background-repeat: repeat-y;
+    margin: 12px auto;
+    background-position: center;
+    width:98.61%;
+}
+.detail h3:before{
+    left: 0;
+}
+.detail h3:after {
+    right: 0;
+}
+.detail{
+    width: 100%;
+    background-color: #f6f5ef;
+    padding-top: 60px;
+    margin-top: 100px;
+}
+.detail h3 {
+    color: #4b4b4d;
+    font: normal normal 600 18px/50px Noto Serif JP;
+    text-align: center;
+    margin: 0 auto;
+    position: relative;
+    width: 450px;
+}
+.detail .lines {
+    width: min(90%,860px);
+    margin: 0 auto;
+    padding: 50px 0 70px;
+}
+.detail h3:before{
+    content: "";
+    width: 130px;
+    border: 1px solid #e6da95;
+    display: block;
+    position: absolute;
+    top: 50%;
+}
+.detail h3:after{
+    content: "";
+    width: 130px;
+    border: 1px solid #e6da95;
+    display: block;
+    position: absolute;
+    top: 50%;
+}
+.lines div{
+    text-align: left;
+    border-bottom: 2px solid #e6da95;
+    display: flex;
+    color: #707070;
+    font: normal normal 500 12px/20px Noto Serif JP;
+    padding: min(3vw, 30px) min(3vw, 120px);
+}
+.lines div p:first-child{
+    font: normal normal 700 12px/20px Noto Serif JP;
+    width: 140px;
+}
+footer {
+    text-align: center;
+    color: #fff;
+    background: #554e39;
+    padding: 50px 0 30px;
+    display: block;
+}
+footer p{
+    font: normal normal 600 20px/50px Noto Serif JP;
+    color: #fff;
+    margin: 0 auto;
+}
+footer img{
+    padding-top: 40px;
+}
+.ftlink a{
+    display: block;
+    font: normal normal 500 14px/30px Noto Serif JP;
+    color: #fff;
+    height: 40px;
+    width: 180px;
+    margin: 30px auto;
+    border: 1.5px solid #fff;
+    text-align: center;
+    line-height: 40px;
+}
+.ftlink{
+    text-align: center;
+    width: 100%;
+    padding: 20px 0;
+}
 }
 
 @media screen and (min-width:661px) and (max-width: 960px){
@@ -733,6 +893,90 @@ ul{
     text-align: left;
     font: normal normal 600 18px/40px Noto Serif JP;
 }
+.detail h3:before{
+    left: 0;
+}
+.detail h3:after {
+    right: 0;
+}
+.detail{
+    width: 100%;
+    background-color: #f6f5ef;
+    padding-top: 60px;
+    margin-top: 100px;
+}
+.detail h3 {
+    color: #4b4b4d;
+    font: normal normal 600 24px/70px Noto Serif JP;
+    text-align: center;
+    margin: 0 auto;
+    position: relative;
+    width: 450px;
+}
+.detail .lines {
+    width: min(90%,860px);
+    margin: 0 auto;
+    padding: 50px 0 70px;
+}
+.detail h3:before{
+    content: "";
+    width: 130px;
+    border: 1px solid #e6da95;
+    display: block;
+    position: absolute;
+    top: 50%;
+}
+.detail h3:after{
+    content: "";
+    width: 130px;
+    border: 1px solid #e6da95;
+    display: block;
+    position: absolute;
+    top: 50%;
+}
+.lines div{
+    text-align: left;
+    border-bottom: 2px solid #e6da95;
+    display: flex;
+    color: #707070;
+    font: normal normal 500 15px/30px Noto Serif JP;
+    padding: min(3vw, 30px) min(3vw, 120px);
+}
+.lines div p:first-child{
+    font: normal normal 700 15px/30px Noto Serif JP;
+    width: 200px;
+}
+footer {
+    text-align: center;
+    color: #fff;
+    background: #554e39;
+    padding: 70px 0 50px;
+    display: block;
+}
+footer p{
+    font: normal normal 600 24px/70px Noto Serif JP;
+    color: #fff;
+    margin: 0 auto;
+}
+footer img{
+    padding-top: 40px;
+}
+.ftlink a{
+    display: block;
+    font: normal normal 500 16px/30px Noto Serif JP;
+    color: #fff;
+    height: 40px;
+    width: 200px;
+    margin: 40px auto;
+    border: 1.5px solid #fff;
+    text-align: center;
+    line-height: 40px;
+}
+.ftlink{
+    text-align: center;
+    width: 100%;
+    padding: 30px 0;
+}
 }
 @media screen and (min-width:961px) and (max-width: 1440px){
     .bg{
@@ -780,13 +1024,99 @@ ul{
         color: #90110F;
         padding: 0 20px;
     }
+    .cenbor{
+        background-image: url(../images/center.svg);
+        background-repeat: repeat-y;
+        margin: 26px auto;
+        background-position: center;
+        width:98.17%;
+    }
+    .detail h3:before{
+        left: 0;
+    }
+    .detail h3:after {
+        right: 0;
+    }
+    .detail{
+        width: 100%;
+        background-color: #f6f5ef;
+        padding-top: 60px;
+        margin-top: 100px;
+    }
+    .detail h3 {
+        color: #4b4b4d;
+        font: normal normal 600 24px/70px Noto Serif JP;
+        text-align: center;
+        margin: 0 auto;
+        position: relative;
+        width: 450px;
+    }
+    .detail .lines {
+        width: min(90%,860px);
+        margin: 0 auto;
+        padding: 50px 0 70px;
+    }
+    .detail h3:before{
+        content: "";
+        width: 130px;
+        border: 1px solid #e6da95;
+        display: block;
+        position: absolute;
+        top: 50%;
+    }
+    .detail h3:after{
+        content: "";
+        width: 130px;
+        border: 1px solid #e6da95;
+        display: block;
+        position: absolute;
+        top: 50%;
+    }
+    .lines div{
+        text-align: left;
+        border-bottom: 2px solid #e6da95;
+        display: flex;
+        color: #707070;
+        font: normal normal 500 15px/30px Noto Serif JP;
+        padding: min(3vw, 30px) min(3vw, 120px);
+    }
+    .lines div p:first-child{
+        font: normal normal 700 15px/30px Noto Serif JP;
+        width: 200px;
+    }
+    footer {
+        text-align: center;
+        color: #fff;
+        background: #554e39;
+        padding: 70px 0 50px;
+        display: block;
+    }
+    footer p{
+        font: normal normal 600 24px/70px Noto Serif JP;
+        color: #fff;
+        margin: 0 auto;
+    }
+    footer img{
+        padding-top: 40px;
+    }
+    .ftlink a{
+        display: block;
+        font: normal normal 500 16px/30px Noto Serif JP;
+        color: #fff;
+        height: 40px;
+        width: 200px;
+        margin: 40px auto;
+        border: 1.5px solid #fff;
+        text-align: center;
+        line-height: 40px;
+    }
+    .ftlink{
+        text-align: center;
+        width: 100%;
+        padding: 30px 0;
+    }
 }
-
-main{
-    display: block;
-    height: fit-content;
-}
-
+@media screen and (min-width:1441px){
 .detail h3:before{
     left: 0;
 }
@@ -871,4 +1201,9 @@ footer img{
     text-align: center;
     width: 100%;
     padding: 30px 0;
+}
+}
+main{
+    display: block;
+    height: fit-content;
 }
